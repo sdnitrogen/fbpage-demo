@@ -1,0 +1,274 @@
+body{
+	background-color: rgb(228,231,241);
+	
+}
+
+.fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	background:#3d5b99;
+	top:0px;
+	left:0px;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+}
+
+#divheader{
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, .25);
+}
+
+#img1{
+	left:178px;
+	height:50px;
+	width:100px;
+	top:25px;
+}
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form1 input[type=mail]{
+	margin-top: 4px;
+	border: 1px solid #1d2a5b;
+}
+#form2{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2 input[type=password]{
+	margin-top: 4px;
+	margin-bottom: 6px;
+	border: 1px solid #1d2a5b;
+}
+#form2 a{
+	color: #9cb4d8;
+	text-decoration: none;
+}
+#form2 a:hover{
+	color: #9cb4d8;
+	text-decoration: underline;
+}
+
+.submit1{
+	left:1130px;
+	top:35px;
+	background:#4267b2;
+	border: 1px solid #29487d;
+	border-radius: 2px;
+	color:white;
+	position: relative;
+	z-index:20;
+	height:22px;
+	width:50px;
+	cursor:pointer;
+}
+.submit1:hover{
+    background: #365899;
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	
+
+}
+#intro1{
+	left:178px;
+	text-align:center;
+	top:450px;
+	font-family: Helvetica;
+	font-size:20px;
+	color: #333;
+    font-size: 21px;
+	font-weight:bold;
+    line-height: 27px;
+    margin-bottom: 9px;
+	width:484px;
+}
+
+#intro11{
+	left:178px;
+	text-align:center;
+	top:480px;
+	font-family: Helvetica;
+	font-size:20px;
+	color: #4b4f56;
+    font-size: 18px;
+    line-height: 21px;
+	width:484px;
+}
+
+#intro2{
+	left:750px;
+	top:20px;
+	font-family:verdana;
+	font-size:30px;
+	color:#000;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+#img2{
+	top:60px;
+	left:178px;
+	width:484px;
+	height:382px;
+}
+#img2 img{
+	width:484px;
+	height:382px;
+}
+
+#intro3{
+	left:750px;
+	top:70px;
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	height:50px;
+	width:300px;
+}
+#form3{
+	top:120px;
+	left:750px;
+	font-family:verdana;
+	font-size:20px;
+	color:black;
+	width:450px;
+	height:495px;
+	
+}
+
+#bd{
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	margin-top: 10px;
+}
+
+#namebox{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#mailbox{
+	width:408px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+
+#form3 input[type=password]{
+	margin-bottom:18px;
+}
+
+#form3 a{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	max-width: 150px;
+	margin-left: 10px;
+	color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#form3 a:hover{
+	text-decoration: underline;
+}
+
+#r-b{
+	font-size:12px;
+	height:15px;
+	width:15px;
+}
+.button2{
+	width:250px;
+	height:40px;
+	left:750px;
+	top:625px;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+	
+}
+
+.button2:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
+
+#intro4{
+	font-family:verdana;
+	font-size:11px;
+	color:gray;
+	width:400px;
+}
+
+#intro4 a{
+	margin: 0px!important;
+}
+
+#intro5{
+	font-family:verdana;
+	font-size:13px;
+	font-weight: bold;
+	color:#666;	
+}
+
+#intro5 a{
+	vertical-align: baseline;
+	font-size: 13px!important;
+	margin: 0px!important;
+}
+.fb-footer{
+	width:100%;
+	position:absolute;
+	left:0px;
+	height:140px;
+	background:white;
+	top:700px;
+	
+}
+#footer-base{
+	width:900px;
+	top:15px;
+	left:200px;
+	color:gray;
+	font-size:13px;
+	height:60px;
+}
